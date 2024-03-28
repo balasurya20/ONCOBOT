@@ -19,7 +19,7 @@ https://github.com/dhaan-ish/intelOneApiHackathon/assets/119067139/d0834784-0e5a
 
 1. [Automatic Prompt Generation 🕵‍♂🔍](#Automatic Prompt Generation)
 2. [Context-Awareness 🔊🔐](#Context-Awareness)
-3. [Integration with LLMs 📷🔐](# Integration with LLMs)
+3. [Integration with LLMs 📷🔐](#Integration with LLMs)
 4. [Summary 📷🔐](#Summary)
 
 
@@ -49,29 +49,24 @@ Integrate seamlessly with existing large language models, such as Gemini, to ena
 ## Summary  🌐👀
 Our project automates the generation of human-readable prompts from oncology data model specifications. Integrated with large language models like Gemini, it enhances data analysis in oncology by providing context-aware prompts tailored to specific queries. With user-friendly interfaces and rigorous validation, our solution promises to streamline oncology data analysis workflows, driving advancements in cancer research and treatment.
 
-1. *Image Classification:* Utilizing Vision Transformers, the system scrutinizes video frames for telltale signs of manipulation, flagging suspicious visual patterns associated with deepfake videos. 🖼🔍
-
-2. *Audio Classification:* Employing CNNs and spectrogram analysis, the system evaluates audio tracks for irregularities often present in synthesized or altered content, enhancing the detection capability of deepfake videos. 🎶🔊
-
-By fusing insights from both image and audio analysis, this system offers a robust defense against the proliferation of deepfake media, safeguarding the integrity of digital content. 🛡📽
 
 
 # Usage of Intel Developer Cloud 🌐💻
 
 
-Leveraging the resources offered by the Intel Developer Cloud substantially accelerated our AI model development and deployment endeavors. Specifically, we utilized the computational prowess of Intel's CPU and XPU to expedite two pivotal aspects of our project: Human Detection and Text-to-Outfit Generation. 💻⚡
+*Accelerated Model Training:* Leveraging Intel Developer Cloud's high-performance CPU and XPU capabilities significantly accelerates the training of machine learning models used in the project. This expedites the development process and enables faster iteration cycles. 💻⚡
 
-*Deepfake Detection Model Training:* Leveraging the computational capabilities of Intel Developer Cloud's CPU and XPU, in conjunction with the utilization of oneDNN and PyTorch, significantly expedited the training phase of our Deepfake Detection model. Leveraging Intel's high-performance computing infrastructure allowed us to train our model more efficiently, notably reducing the time required for model optimization and experimentation. 🚀🔧
+*Optimized Hardware Resources:* Intel Developer Cloud provides optimized hardware resources specifically tailored for AI and machine learning workloads. This ensures efficient utilization of resources and maximizes performance during model training and inference. 🚀🔧
 
-The integration of oneDNN, alongside PyTorch, contributed to this efficiency by optimizing the computational tasks involved in training. A notable achievement is the remarkable acceleration, with a single epoch now completed in just 2 seconds, a substantial enhancement compared to the 6 seconds observed in Colab. This notable speedup underscores the effectiveness of leveraging Intel's hardware resources and optimized software stack. 🚀⚒
+*Integration with oneDNN:* The integration of oneDNN (oneAPI Deep Neural Network Library) further enhances performance by optimizing computational tasks involved in model training. This results in faster training times and improved efficiency. 🚀⚒
 
-Furthermore, the adoption of the optimized version of PyTorch tailored for Intel architectures played a pivotal role in diminishing the training time. This collaborative utilization of optimized PyTorch, alongside Intel's sophisticated computing infrastructure, enabled remarkable enhancements in model training efficiency, ultimately expediting our development process and elevating the overall performance of our Deepfake Detection model. 🏋‍♂🧑‍💻
+*Reduced Processing Time:* By harnessing the computational power of Intel Developer Cloud, processing times for tasks such as data preprocessing, model training, and inference are significantly reduced. This enables quicker generation of prompts from oncology data model specifications. 🚀🔧
+
+*Enhanced Model Performance:* The advanced hardware capabilities provided by Intel Developer Cloud contribute to improved model performance and accuracy. This ensures that the generated prompts are of high quality and effectively capture the nuances of oncology data. 🏋‍♂🧑‍💻
 
 ![Comparison Graph](images/Binary_Classifcation_Graph.png)
 
 >Comparison between time took in Intel Developers Cloud using OneDNN and Google Colab
-    
-1  *Text-to-Outfit Generation:* The Text-to-Outfit Generator component of our project involved complex computational tasks, particularly during outfit generation and rendering. Running these computations in Google Colab often resulted in long processing times due to resource limitations. However, by leveraging Intel Developer Cloud's CPU and XPU resources, we experienced a notable reduction in processing time. The parallel processing capabilities of Intel's infrastructure enabled us to generate outfit recommendations swiftly, enhancing the overall user experience. 🌟👗
 
 ![Comparison Graph](images/textToImageComparison.png)
 
@@ -85,76 +80,54 @@ The flow diagram illustrates the sequential steps and interactions within our sy
 
 1.  *User Input 🤖🗣:*
     
-    -   Users initiate the process by providing input, whether through text prompts or selects ocassion.
-2.  *Text-To-Outfit-Generator 📝👗:*
+    -   Users initiate the process by providing input, whether through text prompts.
+      
+2.  *Preprocessing Report📝:*
     
-    -   The Text-To-Outfit-Generator module interprets textual prompts and generates corresponding outfit descriptions.
-3.  *Human Detection 👤🚀:*
-    
-    -   The Human Detection component identifies and locates individuals within images. This step is crucial for subsequent processes, ensuring accurate and perfect virtual try on.
-4.  *Outfit Recommendation 🛍💡:*
-    
-    -   Based on selection of ocassion and color, the Outfit Recommendation module suggests personalized clothing ensembles. It considers factors such as style preferences, occasion, and user demographics.
-5.  *Virtual Try-On 🌐👀:*
-    
-    -   Users have the opportunity to virtually try on suggested outfits. The Virtual Try-On feature utilizes image processing, clothing segmentation, and pose estimation to showcase how the recommended outfits would look on the user.
-6.  *Fashion Chatbot 💬🤖:*
-    
-    -   Engaging with users in natural language, the Fashion Chatbot provides additional assistance, answers queries, and offers styling advice. It enhances the overall user experience through interactive and dynamic conversations.
+    -   The oncology data report undergoes preprocessing to ensure consistency and compatibility with the prompt generation algorithm.
 
-![Work Flow](images/workflow.png)
+3.  *Analyze Report Content and Structure 👤🚀:*
+    
+    -    The preprocessed report is analyzed to understand its content and structure. This involves identifying key information, relationships, and context within the report.
+
+4.  *Contextual Data Understanding and Analysis 🛍💡:*
+    
+    -  The algorithm interprets the contextual data extracted from the report to gain insights into the underlying oncological concepts, terminology, and domain-specific conventions.
+
+5.  *Generate Prompt from Analysis 🌐👀:*
+    
+    -   Based on the analysis of the report content and contextual understanding, the algorithm generates a human-readable prompt tailored to the specific query or task at hand.
+
+6.  *Output Prompt for LLM 💬🤖:*
+    
+    -  The generated prompt is provided as input to a large language model (LLM), such as Gemini, to produce a relevant and informative response.
+
 
 # Built With 🛠
-1.  *Frontend - React:* We crafted our frontend user interface with React, a widely-used JavaScript library renowned for crafting dynamic user interfaces. Leveraging React's component-driven structure empowered us to fashion modular and reusable UI elements, paving the way for a seamless and engaging user journey. Through this approach, we ensured our interface is both responsive and interactive, enriching the overall user experience. 💻🌐
+1.  *Frontend - HTML/CSS:* Our project's frontend user interface is built using HTML for structure, CSS for styling, and JavaScript for interactivity. By leveraging these fundamental web technologies, we ensure compatibility across various browsers and devices. The use of HTML provides the structural foundation, CSS enhances the visual appeal with styling elements, and JavaScript adds dynamic behavior to create a seamless user experience. 💻🌐
     
-2.  *Backend - Flask:* The backend of our application was built using Flask, a lightweight and flexible web framework for Python. Flask provided us with the necessary tools to develop RESTful APIs and handle server-side logic efficiently. Its simplicity and extensibility allowed us to quickly implement features such as user authentication, data processing, and interaction with machine learning models. 🐍🚀
+2.  *Backend - Flask:*The backend of our application is powered by Flask, a lightweight and flexible web framework for Python. Flask enables us to develop RESTful APIs and handle server-side logic efficiently. Its simplicity and ease of use allow for rapid development of backend functionalities, including data processing, routing, and interaction with databases. With Flask, we ensure scalability and maintainability while delivering robust backend services for our project. 🐍🚀
     
 3.  *Machine Learning Models:* Our application integrates various machine learning models to provide intelligent features and recommendations. These models were developed using state-of-the-art libraries and frameworks, including TensorFlow, PyTorch, and Hugging Face Transformers. Leveraging the power of machine learning, we implemented functionalities such as outfit recommendation, virtual try-on, fashion chatbot, and human detection. 🤖⚙
     
 4.  *Other Technologies:* In addition to React, Flask, and machine learning models, our application utilizes a range of other technologies to enhance performance, security, and user experience. These include:
     
-    -   *Gradio:* A user-friendly library for creating connection between front end and ml models, enabling seamless integration of AI features into our application. 🚀🤝
-    -   *LLAMA Index:* A powerful indexing and search engine for efficient retrieval of fashion-related data, contributing to faster outfit recommendations and search functionalities. 📊🔍
-    -   *Intel Developer Cloud:* Leveraging Intel's high-performance CPU and XPU capabilities, we accelerated model training and inference processes, reducing processing time and improving overall performance. ⚡💻
+    -  Bootstrap: We utilize Bootstrap, a popular front-end framework, to streamline the design process and create responsive, mobile-first layouts. Bootstrap's pre-designed components and grid system expedite frontend development, ensuring consistency and compatibility across devices. 📊🔍
+      
+    -   *Intel Developer Cloud:*  Leveraging Intel's high-performance CPU and XPU capabilities, we accelerate certain computational tasks within our application, such as data processing and model inference. By harnessing Intel Developer Cloud's optimized hardware resources, we enhance performance and efficiency, delivering a seamless user experience. ⚡💻
 
-# What It Does 🤖🚀
-Our application offers an immersive and interactive experience for users seeking fashion advice and outfit recommendations. Here's a breakdown of its key functionalities:
-
-1.  *Outfit Recommendation Based on Occasion: 🎉👔👗* 
-    
-    -   Users start by selecting an occasion for which they need outfit recommendations. The frontend interface provides a list of predefined occasions, such as casual, formal, party, etc.
-    -   Upon selecting an occasion, the application prompts users to choose their preferred color palette or style preferences to tailor the recommendations further.
-2.  *Virtual Try-On Experience: 🕶👕📸*
-    
-    -   After selecting an occasion and specifying style preferences, users are presented with a curated list of clothing items that match their criteria.
-    -   Users can browse through the suggested clothing items and select one that interests them. They can then virtually try on the selected clothing item by uploading their image.
-    -   Our machine learning models perform virtual try-on, overlaying the selected clothing item onto the user's uploaded image. Users can visualize how the outfit looks on them in real-time.
-3.  *Outfit Recommendation Based on Prompt: 🖋👚🌞*
-    
-    -   Alternatively, users can opt for outfit recommendations based on specific prompts or descriptions. The frontend interface allows users to input their prompt, such as "black formal dress" or "summer beach outfit."
-    -   Upon entering the prompt, the application processes the input and generates relevant outfit suggestions based on machine learning algorithms trained on fashion datasets.
-4.  *Integrated Fashion Chatbot: 💬🤖👠*
-    
-    -   To further assist users and address their fashion-related queries, our application features an integrated fashion chatbot.
-    -   Users can activate the chatbot through the frontend interface, leveraging natural language processing (NLP) capabilities to engage in conversation, ask questions, and seek fashion advice.
-    -   The chatbot leverages advanced language models to understand user queries and provide relevant responses, helping users make informed fashion choices and clear any doubts they may have.
-
-In summary, our application combines advanced machine learning techniques with a user-friendly frontend interface to offer personalized outfit recommendations, virtual try-on experiences, and interactive fashion assistance through a seamlessly integrated fashion chatbot. 🌐👗🛍
 
 # How We Built It 🛠👷‍♂
 
- -  Developed frontend using React for a modular and reusable UI. 💻🔧
- -  Implemented backend with Flask for RESTful APIs and data processing. 🐍🚀
- -  Integrated various machine learning models for outfit recommendation, virtual try-on, and fashion chatbot functionalities. 🤖⚙
- -  Implemented virtual try-on feature with complex image processing and machine learning techniques. 📷🔄
- -  Integrated a fashion chatbot leveraging natural language processing (NLP) capabilities. 💬🤖
+ -  Developed frontend using HTML,CSS for a modular and reusable UI. 💻🔧
+ -  Implemented backend with Python 🐍🚀
+ -  Integrated various machine learning models for seamless communication and chatbot functionalities. 🤖⚙
+ -  Implemented OCR feature with complex image processing and machine learning techniques. 📷🔄
+ -  Integrated a chatbot leveraging natural language processing (NLP) capabilities. 💬🤖
 
-# References For Datasets 📊📚
 
- - Virtual-Try-On : [VITON 🤖👗](https://www.kaggle.com/datasets/marquis03/hr-viton)
- - Chat-Bot : [PDF 📄💬](https://github.com/dhaan-ish/intelOneApiHackathon/blob/main/Chat-Bot/Data/fashsion.pdf)
- - Outfit-Recommendation : [Kaggle 🛍📸](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)]
- - Human-Detection : [Roboflow 👤🔍](https://universe.roboflow.com/human-classification/human-qgzuc)
+# Empowering Patient Care and Education 🌐💻
+In the realm of healthcare, we introduce a groundbreaking solution designed to empower patients and their caretakers with comprehensive health insights while also serving as an educational tool for students and healthcare professionals. Our platform facilitates seamless access to patient reports, enabling caretakers to monitor patient health effectively and fostering a deeper understanding of medical conditions for students.
 
-# Transforming E-commerce 🌐💻
-To monetize this solution for large online outfit e-commerce websites, we offer a comprehensive fashion platform that enhances user engagement, improves conversion rates, and drives sales. By integrating our advanced outfit recommendation, virtual try-on, and fashion chatbot functionalities, e-commerce websites can provide a personalized and interactive shopping experience to their customers, leading to increased user satisfaction, higher retention rates, and ultimately, greater revenue generation through increased sales and customer loyalty. Our solution offers a competitive edge in the market by leveraging cutting-edge technology to deliver unparalleled convenience and customization, ultimately translating into higher profitability for online outfit e-commerce businesses.💻👗🤖📈
+# Transforming Healthcare and Education  🩺📚🚀
+By bridging the gap between patient care and education, our platform revolutionizes the way healthcare is delivered and medical knowledge is disseminated. Whether you are a patient seeking to take control of your health or a student eager to deepen your understanding of medical diagnostics, our platform offers a transformative experience that empowers individuals and enhances the quality of care. Join us in shaping the future of healthcare and education through innovation and collaboration. 🩺📚🚀
