@@ -1,0 +1,50 @@
+Cancer site grouping,"Calendar 
+period of
+diagnosis",Sex,"Age
+group",Method,"Time 
+since 
+diagnosis","Cases 
+analysed","Deaths 
+up to timepoint","Censored 
+up to timepoint",Patients remaining at risk at T,"Overall
+survival (%)",SE for overall survival,"Lower 95% CI
+for overall 
+survival","Upper 95% CI
+for overall 
+survival"
+All malignant neoplasms excluding non-melanoma skin cancer,Jan-Mar 2018,Males,15-99,Non-standardised,1 year,"3,544","1,050",1,"2,493",70.4,1.1,68.9,71.9
+All malignant neoplasms excluding non-melanoma skin cancer,Apr-Jun 2018,Males,15-99,Non-standardised,1 year,"3,853","1,070",1,"2,782",72.2,1.0,70.8,73.7
+All malignant neoplasms excluding non-melanoma skin cancer,Jul-Sep 2018,Males,15-99,Non-standardised,1 year,"3,583","1,090",1,"2,492",69.6,1.1,68.1,71.1
+All malignant neoplasms excluding non-melanoma skin cancer,Oct-Dec 2018,Males,15-99,Non-standardised,1 year,"3,685","1,103",1,"2,581",70.1,1.1,68.6,71.6
+All malignant neoplasms excluding non-melanoma skin cancer,Jan-Mar 2019,Males,15-99,Non-standardised,1 year,"3,646","1,096",0,"2,550",69.9,1.1,68.5,71.4
+All malignant neoplasms excluding non-melanoma skin cancer,Apr-Jun 2019,Males,15-99,Non-standardised,1 year,"3,678","1,163",0,"2,515",68.4,1.1,66.9,69.9
+All malignant neoplasms excluding non-melanoma skin cancer,Jul-Sep 2019,Males,15-99,Non-standardised,1 year,"3,715","1,155",0,"2,560",68.9,1.1,67.4,70.4
+All malignant neoplasms excluding non-melanoma skin cancer,Oct-Dec 2019,Males,15-99,Non-standardised,1 year,"3,729","1,072",1,"2,656",71.2,1.0,69.8,72.7
+All malignant neoplasms excluding non-melanoma skin cancer,Jan-Mar 2020,Males,15-99,Non-standardised,1 year,"3,324","1,070",0,"2,254",67.8,1.2,66.2,69.4
+All malignant neoplasms excluding non-melanoma skin cancer,Apr-Jun 2020,Males,15-99,Non-standardised,1 year,"2,535","1,055",0,"1,480",58.4,1.7,56.5,60.3
+All malignant neoplasms excluding non-melanoma skin cancer,Jul-Sep 2020,Males,15-99,Non-standardised,1 year,"3,380","1,168",0,"2,212",65.4,1.2,63.9,67.1
+All malignant neoplasms excluding non-melanoma skin cancer,Oct-Dec 2020,Males,15-99,Non-standardised,1 year,"3,423","1,123",36,"2,264",67.2,1.2,65.6,68.8
+All malignant neoplasms excluding non-melanoma skin cancer,Jan-Mar 2018,Females,15-99,Non-standardised,1 year,"3,626",974,0,"2,652",73.1,1.0,71.7,74.6
+All malignant neoplasms excluding non-melanoma skin cancer,Apr-Jun 2018,Females,15-99,Non-standardised,1 year,"3,877","1,020",4,"2,853",73.7,1.0,72.3,75.1
+All malignant neoplasms excluding non-melanoma skin cancer,Jul-Sep 2018,Females,15-99,Non-standardised,1 year,"3,704","1,001",3,"2,700",73.0,1.0,71.6,74.4
+All malignant neoplasms excluding non-melanoma skin cancer,Oct-Dec 2018,Females,15-99,Non-standardised,1 year,"3,552","1,041",2,"2,509",70.7,1.1,69.2,72.2
+All malignant neoplasms excluding non-melanoma skin cancer,Jan-Mar 2019,Females,15-99,Non-standardised,1 year,"3,756","1,006",1,"2,749",73.2,1.0,71.8,74.6
+All malignant neoplasms excluding non-melanoma skin cancer,Apr-Jun 2019,Females,15-99,Non-standardised,1 year,"3,828","1,101",1,"2,726",71.2,1.0,69.8,72.7
+All malignant neoplasms excluding non-melanoma skin cancer,Jul-Sep 2019,Females,15-99,Non-standardised,1 year,"3,658","1,039",1,"2,618",71.6,1.0,70.1,73.1
+All malignant neoplasms excluding non-melanoma skin cancer,Oct-Dec 2019,Females,15-99,Non-standardised,1 year,"3,418","1,001",0,"2,417",70.7,1.1,69.2,72.3
+All malignant neoplasms excluding non-melanoma skin cancer,Jan-Mar 2020,Females,15-99,Non-standardised,1 year,"3,445",933,0,"2,512",72.9,1.0,71.4,74.4
+All malignant neoplasms excluding non-melanoma skin cancer,Apr-Jun 2020,Females,15-99,Non-standardised,1 year,"2,538",899,0,"1,639",64.6,1.5,62.7,66.5
+All malignant neoplasms excluding non-melanoma skin cancer,Jul-Sep 2020,Females,15-99,Non-standardised,1 year,"3,367","1,019",0,"2,348",69.7,1.1,68.2,71.3
+All malignant neoplasms excluding non-melanoma skin cancer,Oct-Dec 2020,Females,15-99,Non-standardised,1 year,"3,458",999,20,"2,439",71.1,1.1,69.6,72.6
+All malignant neoplasms excluding non-melanoma skin cancer,Jan-Mar 2018,Persons,15-99,Non-standardised,1 year,"7,170","2,024",1,"5,145",71.8,0.7,70.7,72.8
+All malignant neoplasms excluding non-melanoma skin cancer,Apr-Jun 2018,Persons,15-99,Non-standardised,1 year,"7,730","2,090",5,"5,635",73.0,0.7,72.0,73.9
+All malignant neoplasms excluding non-melanoma skin cancer,Jul-Sep 2018,Persons,15-99,Non-standardised,1 year,"7,287","2,091",4,"5,192",71.3,0.7,70.3,72.3
+All malignant neoplasms excluding non-melanoma skin cancer,Oct-Dec 2018,Persons,15-99,Non-standardised,1 year,"7,237","2,144",3,"5,090",70.4,0.8,69.3,71.4
+All malignant neoplasms excluding non-melanoma skin cancer,Jan-Mar 2019,Persons,15-99,Non-standardised,1 year,"7,402","2,102",1,"5,299",71.6,0.7,70.6,72.6
+All malignant neoplasms excluding non-melanoma skin cancer,Apr-Jun 2019,Persons,15-99,Non-standardised,1 year,"7,506","2,264",1,"5,241",69.8,0.8,68.8,70.9
+All malignant neoplasms excluding non-melanoma skin cancer,Jul-Sep 2019,Persons,15-99,Non-standardised,1 year,"7,373","2,194",1,"5,178",70.2,0.8,69.2,71.3
+All malignant neoplasms excluding non-melanoma skin cancer,Oct-Dec 2019,Persons,15-99,Non-standardised,1 year,"7,147","2,073",1,"5,073",71.0,0.8,69.9,72.1
+All malignant neoplasms excluding non-melanoma skin cancer,Jan-Mar 2020,Persons,15-99,Non-standardised,1 year,"6,769","2,003",0,"4,766",70.4,0.8,69.3,71.5
+All malignant neoplasms excluding non-melanoma skin cancer,Apr-Jun 2020,Persons,15-99,Non-standardised,1 year,"5,073","1,954",0,"3,119",61.5,1.1,60.2,62.8
+All malignant neoplasms excluding non-melanoma skin cancer,Jul-Sep 2020,Persons,15-99,Non-standardised,1 year,"6,747","2,187",0,"4,560",67.6,0.8,66.5,68.7
+All malignant neoplasms excluding non-melanoma skin cancer,Oct-Dec 2020,Persons,15-99,Non-standardised,1 year,"6,881","2,122",56,"4,703",69.2,0.8,68.1,70.3
