@@ -8,13 +8,6 @@
 
 🔍🔒The "Auto-Generation of Large Language Model Prompts from Oncology Data Model Specification" project aims to develop a system that automatically generates prompts for large language models (LLMs) using oncology data model specifications. Oncology data models are structured representations of data elements and their relationships in the field of oncology, encompassing various aspects such as patient demographics, diagnoses, treatments, and outcomes. 🛡👀
 
-
-# Demonstration of the Project
-
-https://github.com/dhaan-ish/intelOneApiHackathon/assets/119067139/d0834784-0e5a-4795-b0e0-49b617a9e05d
-
-[Click here to watch the demo video](https://acnvxeqqxhmuzwfvzebn.supabase.co/storage/v1/object/public/personal_pro/demo-final.mp4?t=2024-03-12T03%3A32%3A10.017Z)
-
 # KEY FEATURES
 
 1. [Automatic Prompt Generation 🕵‍♂🔍](#Automatic Prompt Generation)
@@ -34,16 +27,10 @@ Automatically generate human-readable prompts from oncology data model specifica
 
 Ensure context-aware prompt generation by considering domain-specific conventions and contextual information inherent in oncology data models. The system leverages advanced algorithms and natural language processing techniques to generate prompts that are not only accurate but also contextually relevant. By incorporating domain knowledge and context, the prompts facilitate better communication with LLMs, resulting in more meaningful and accurate responses. 🎶🔊🤖💪
 
-*Notebook Link* : [Click Here](https://github.com/Arshad-Smd/DeepfakeDetection/blob/main/Backend/Models/deep-fake-voice-recognition-using-cnn.ipynb)
-
 <a name="Integration with LLMs"></a>
 ## Integration with LLMs 🖼🔍
 
 Integrate seamlessly with existing large language models, such as Gemini, to enable prompt-response generation. The system provides robust interfaces for interacting with LLMs, allowing users to input generated prompts and obtain relevant responses. Leveraging state-of-the-art language models enhances the system's ability to interpret and respond to complex queries, ultimately improving the quality of insights derived from oncology data. 🌐🖼🚀💡
-
-*Scarch Notebook Link* : [Click Here](https://github.com/Arshad-Smd/DeepfakeDetection/blob/main/Backend/Models/image_classifier_from_scratch.ipynb)
-
-*Transferlearning Notebook Link* : [Click Here](https://github.com/Arshad-Smd/DeepfakeDetection/blob/main/Backend/Models/train_using_pretrained_model_image_classifier.ipynb)
 
 <a name="Summary"></a>
 ## Summary  🌐👀
@@ -64,14 +51,6 @@ Our project automates the generation of human-readable prompts from oncology dat
 
 *Enhanced Model Performance:* The advanced hardware capabilities provided by Intel Developer Cloud contribute to improved model performance and accuracy. This ensures that the generated prompts are of high quality and effectively capture the nuances of oncology data. 🏋‍♂🧑‍💻
 
-![Comparison Graph](images/Binary_Classifcation_Graph.png)
-
->Comparison between time took in Intel Developers Cloud using OneDNN and Google Colab
-
-![Comparison Graph](images/textToImageComparison.png)
-
->Comparison between time took in Intel Developers Cloud using OneDNN and Google Colab
-    
 In summary, Intel Developer Cloud's advanced CPU and XPU technologies provided us with the computational power necessary to expedite model training and inference processes, ultimately accelerating our project development and deployment timelines. 🚀🕒
 
 # Flow Diagram 🔄📊
